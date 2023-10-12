@@ -97,3 +97,7 @@ vim.keymap.set("n", "<leader>zz", function()
   vim.wo.number = true
   vim.wo.rnu = true
 end)
+
+vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#6e738d", bold = true })
+vim.api.nvim_set_hl(0, "LineNr", { fg = "#b7bdf8", bold = true })
+vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#6e738d", bold = true })
