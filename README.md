@@ -1,4 +1,4 @@
 # viis-Lazyvim
-My Lazyvim configuration
+My perfected Lazyvim configuration
 
 All of these files should be placed inside .config/nvim
