@@ -69,6 +69,24 @@ require("catppuccin").setup({
     which_key = true,
     fidget = true,
     neotree = true,
+    native_lsp = {
+      enabled = true,
+      virtual_text = {
+        errors = {},
+        hints = {},
+        warnings = {},
+        information = {},
+      },
+      underlines = {
+        errors = { "underline" },
+        hints = { "underline" },
+        warnings = { "underline" },
+        information = { "underline" },
+      },
+      inlay_hints = {
+        background = true,
+      },
+    },
   },
 })
 vim.cmd.colorscheme("catppuccin")
