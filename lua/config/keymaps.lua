@@ -34,7 +34,10 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- Undotree
-vim.keymap.set("n", "<C-u>", vim.cmd.UndotreeToggle)
+vim.keymap.set("n", "<leader>uu", vim.cmd.UndotreeToggle)
+
+-- Oil
+vim.keymap.set("n", "<leader>e", "<cmd>lua require('oil').toggle_float()<CR>", { desc = "Oil" })
 
 -- Harpoon
 local mark = require("harpoon.mark")
@@ -61,3 +64,29 @@ vim.keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
 vim.keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
 vim.keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
 vim.keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
+
+-- Zen mode
+vim.keymap.set("n", "<leader>zz", function()
+  require("zen-mode").setup({
+    window = {
+      backdrop = 0.9,
+      width = 100,
+      options = {
+        relativenumber = true,
+        cursorline = true,
+        signcolumn = "yes",
+      },
+    },
+    plugins = {
+      options = {
+        enabled = true,
+        showcmd = true,
+        ruler = true,
+      },
+    },
+  })
+  require("zen-mode").toggle()
+  vim.wo.wrap = false
+  vim.wo.number = true
+  vim.wo.rnu = true
+end)

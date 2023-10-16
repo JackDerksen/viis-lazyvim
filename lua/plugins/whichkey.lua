@@ -21,6 +21,7 @@ return {
       ["<leader>u"] = { name = "+ui" },
       ["<leader>w"] = { name = "+windows" },
       ["<leader>x"] = { name = "+diagnostics/quickfix" },
+      ["<leader>z"] = { name = "+zenmode" },
     },
   },
   config = function(_, opts)

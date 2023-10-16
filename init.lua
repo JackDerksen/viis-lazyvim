@@ -91,31 +91,6 @@ require("catppuccin").setup({
 })
 vim.cmd.colorscheme("catppuccin")
 
-vim.keymap.set("n", "<leader>zz", function()
-  require("zen-mode").setup({
-    window = {
-      backdrop = 0.9,
-      width = 100,
-      options = {
-        relativenumber = true,
-        cursorline = true,
-        signcolumn = "yes",
-      },
-    },
-    plugins = {
-      options = {
-        enabled = true,
-        showcmd = true,
-        ruler = true,
-      },
-    },
-  })
-  require("zen-mode").toggle()
-  vim.wo.wrap = false
-  vim.wo.number = true
-  vim.wo.rnu = true
-end)
-
 vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#6e738d", bold = true })
 vim.api.nvim_set_hl(0, "LineNr", { fg = "#b7bdf8", bold = true })
 vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#6e738d", bold = true })
