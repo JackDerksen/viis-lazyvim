@@ -27,6 +27,7 @@ return {
         lualine_a = {
           {
             "mode",
+            icon = "",
             separator = { left = "", right = "" },
             color = {
               fg = "#1e1e2e",
@@ -36,7 +37,7 @@ return {
         },
         lualine_b = { "branch", "diff", "diagnostics" },
         lualine_c = { "filename" },
-        lualine_x = { "filesize", "progress" },
+        lualine_x = { "filesize" },
         lualine_y = {
           {
             "filetype",
@@ -50,6 +51,7 @@ return {
         lualine_z = {
           {
             "location",
+            icon = "",
             color = {
               fg = "#1e1e2e",
               bg = "#f2cdcd",
