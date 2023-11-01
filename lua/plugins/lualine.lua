@@ -35,8 +35,32 @@ return {
             },
           },
         },
-        lualine_b = { "branch", "diff", "diagnostics" },
-        lualine_c = { "filename" },
+        lualine_b = {
+          {
+            "diff",
+          },
+          {
+            "branch",
+            icon = "",
+            separator = { left = "", right = "" },
+            color = {
+              fg = "#1e1e2e",
+              bg = "#7d83ac",
+            },
+          },
+        },
+        lualine_c = {
+          {
+            "diagnostics",
+            separator = { left = "", right = "" },
+            color = {
+              bg = "#45475a",
+            },
+          },
+          {
+            "filename",
+          },
+        },
         lualine_x = { "filesize" },
         lualine_y = {
           {
