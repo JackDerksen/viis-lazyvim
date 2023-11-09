@@ -75,7 +75,7 @@ return {
         lualine_z = {
           {
             "location",
-            icon = "",
+            icon = "",
             color = {
               fg = "#1e1e2e",
               bg = "#f2cdcd",

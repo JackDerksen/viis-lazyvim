@@ -4,7 +4,8 @@ return {
   name = "catppuccin",
   opts = {
     transparent_background = true,
-    no_italic = true,
+    no_italic = false,
+    no_bold = false,
     integrations = {
       harpoon = true,
       fidget = true,
