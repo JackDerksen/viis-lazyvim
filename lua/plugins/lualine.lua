@@ -37,11 +37,16 @@ return {
         },
         lualine_b = {
           {
-            "diff",
-          },
-          {
             "branch",
             icon = "",
+            separator = { left = "", right = "" },
+            color = {
+              fg = "#1e1e2e",
+              bg = "#7d83ac",
+            },
+          },
+          {
+            "diff",
             separator = { left = "", right = "" },
             color = {
               fg = "#1e1e2e",
