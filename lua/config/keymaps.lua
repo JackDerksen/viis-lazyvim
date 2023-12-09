@@ -51,6 +51,12 @@ vim.keymap.set("n", "<leader>uu", vim.cmd.UndotreeToggle)
 -- Oil
 vim.keymap.set("n", "<leader>e", "<cmd>lua require('oil').toggle_float()<CR>", { desc = "Oil" })
 
+-- Twilight
+vim.keymap.set("n", "<leader>tt", "<cmd>Twilight<CR>", { desc = "Toggle Twilight" })
+
+-- Zen mode
+vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>", { desc = "Toggle Zen Mode" })
+
 -- Harpoon
 local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")
