@@ -4,7 +4,7 @@ return {
   name = "catppuccin",
   opts = {
     transparent_background = true,
-    no_italic = false,
+    no_italic = true,
     no_bold = false,
     integrations = {
       harpoon = true,
@@ -45,6 +45,12 @@ return {
           DiagnosticVirtualTextInfo = { bg = colors.none },
         }
       end,
+    },
+    color_overrides = {
+      mocha = {
+        peach = "#fcc6a7",
+        green = "#d2fac5", -- I think the default green isn't pastel enough
+      },
     },
   },
 }
