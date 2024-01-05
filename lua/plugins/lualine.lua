@@ -11,7 +11,7 @@ return {
         component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },
         disabled_filetypes = {
-          statusline = { "neo-tree" },
+          --statusline = { "neo-tree" },
           winbar = {},
         },
         ignore_focus = {},
@@ -27,10 +27,10 @@ return {
         lualine_a = {
           {
             "mode",
-            icon = "",
+            icon = "",
             separator = { left = "", right = "" },
             color = {
-              fg = "#1e1e2e",
+              fg = "#1c1d21",
               bg = "#b4befe",
             },
           },
@@ -41,7 +41,7 @@ return {
             icon = "",
             separator = { left = "", right = "" },
             color = {
-              fg = "#1e1e2e",
+              fg = "#1c1d21",
               bg = "#7d83ac",
             },
           },
@@ -49,7 +49,7 @@ return {
             "diff",
             separator = { left = "", right = "" },
             color = {
-              fg = "#1e1e2e",
+              fg = "#1c1d21",
               bg = "#7d83ac",
             },
           },
@@ -72,7 +72,7 @@ return {
             "filetype",
             icons_enabled = false,
             color = {
-              fg = "#1e1e2e",
+              fg = "#1C1D21",
               bg = "#eba0ac",
             },
           },
@@ -82,7 +82,7 @@ return {
             "location",
             icon = "",
             color = {
-              fg = "#1e1e2e",
+              fg = "#1c1d21",
               bg = "#f2cdcd",
             },
           },
