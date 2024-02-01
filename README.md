@@ -1,6 +1,28 @@
 # viis-Lazyvim
-My perfected Lazyvim configuration.
 
-The dependencies should be the same as stock LazyVim.
+This is my perfected Lazyvim configuration, built on top of [Lazyvim](https://www.lazyvim.org/), designed to pair nicely with my [Tmux setup](https://github.com/JackDerksen/tmux). 
 
-NOTE: This repo is meant as add-ons to an existing LazyVim install. Just downloading these files and placing them in your .config/nvim directory won't work, as far as I know. Once you have stock LazyVim installed, place or replace the files in your .config/nvim directory with the files from this repo. Once you start up LazyVim for the first time and it loads everything in, it should all work.
+Dependencies should be the same as stock LazyVim.
+
+### Key plugins include:
+ - Harpoon for blazingly fast file switching
+ - Oil for file navigation
+ - Zen and Twilight for more focused programming
+ - Undotree for time traveling
+ - Duck.nvim just for fun (I've replaced the duck with a squirrel)
+
+### Plus a whole bunch of awesome keymaps!
+ - `shift + k` and `shift + j` while in visual mode to move a block of code up and down (with smart indenting, thanks for this one, Prime)
+ - `<leader> + y` to yank to the system clipboard
+ - `<leader> + s` for easy search and replace
+ - `ctrl + h/j/k/l` for seamless Tmux window navigation
+ - `<leader> + ;` to spawn a squirrel amigo
+ - `<leader> + ;;` to kill your new squirrel amigo, you monster!
+ - And more!
+
+### I've also disabled some stock Lazyvim plugins that I find annoying:
+- nvim-notify
+- bufferline.nvim
+- neo-tree
+
+I've also made most backgrounds transparent so you can use whatever terminal background colour you want for a seamless and sexy af appearance!
