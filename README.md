@@ -16,6 +16,7 @@ Dependencies should be the same as stock LazyVim.
  - `<leader> + y` to yank to the system clipboard
  - `<leader> + s` for easy search and replace
  - `ctrl + h/j/k/l` for seamless Tmux window navigation
+ - `<leader> + e` to toggle a floating Oil window
  - `<leader> + ;` to spawn a squirrel amigo
  - `<leader> + ;;` to kill your new squirrel amigo, you monster!
  - And more!
