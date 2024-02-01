@@ -3,5 +3,5 @@ return {
   { "akinsho/bufferline.nvim", enabled = false }, -- Not necessary (Harpoon!)
   { "nvim-neo-tree/neo-tree.nvim", enabled = false }, -- Switched to Oil
   { "ThePrimeagen/vim-be-good", enabled = false }, -- Just don't really need it
-  -- { "hrsh7th/nvim-cmp", enabled = false }, -- Disable cmp for exams!
+  --{ "hrsh7th/nvim-cmp", enabled = false }, -- Disable cmp for exams!
 }
