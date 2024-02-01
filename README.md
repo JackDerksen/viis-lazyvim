@@ -25,4 +25,4 @@ Dependencies should be the same as stock LazyVim.
 - bufferline.nvim
 - neo-tree
 
-I've also made most backgrounds transparent so you can use whatever terminal background colour you want for a seamless and sexy af appearance!
+### Most background colours have been made transparent so you can use whatever terminal background colour you want for a seamless and sexy af appearance!
