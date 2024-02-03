@@ -17,13 +17,10 @@ return {
     local opts = {
       theme = "doom",
       hide = {
-        -- this is taken care of by lualine
-        -- enabling this messes up the actual laststatus setting after loading a file
         statusline = false,
       },
       config = {
         header = vim.split(logo, "\n"),
-        -- stylua: ignore
         center = {
           { action = "Telescope find_files", desc = " Find file", icon = " ", key = "f" },
           { action = "ene | startinsert", desc = " New file", icon = " ", key = "n" },
@@ -45,7 +42,6 @@ return {
       button.desc = button.desc .. string.rep(" ", 43 - #button.desc)
     end
 
-    -- close Lazy and re-open when the dashboard is ready
     if vim.o.filetype == "lazy" then
       vim.cmd.close()
       vim.api.nvim_create_autocmd("User", {

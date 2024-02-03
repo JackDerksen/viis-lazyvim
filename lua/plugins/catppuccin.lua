@@ -48,8 +48,9 @@ return {
     },
     color_overrides = {
       mocha = {
+        -- I don't think these colours are pastel enough by default!
         peach = "#fcc6a7",
-        green = "#d2fac5", -- I think the default green isn't pastel enough
+        green = "#d2fac5",
       },
     },
   },

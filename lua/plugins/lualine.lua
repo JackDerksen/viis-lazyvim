@@ -11,7 +11,6 @@ return {
         component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },
         disabled_filetypes = {
-          --statusline = { "neo-tree" },
           winbar = {},
         },
         ignore_focus = {},
