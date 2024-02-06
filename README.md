@@ -17,11 +17,12 @@ Dependencies should be the same as stock Lazyvim.
  - Duck.nvim just for fun (I've replaced the duck with a squirrel)
 
 
-
 ### Plus a whole bunch of awesome keymaps!
  - `shift + k` and `shift + j` while in visual mode to move a block of code up and down (with smart indenting, thanks for this one, Prime)
  - `<leader> + y` to yank to the system clipboard
  - `<leader> + s` for easy search and replace
+ - `<leader> + n` to jump to the next instance of the highlighted letter (while keeping the result centered on screen)
+ - `<leader> + N` to jump to the previous instance of the highlighted letter (while keeping the result centered on screen)
  - `ctrl + h/j/k/l` for seamless Tmux window navigation
  - `<leader> + e` to toggle a floating Oil window
  - `<leader> + ;` to spawn a squirrel amigo
@@ -29,9 +30,9 @@ Dependencies should be the same as stock Lazyvim.
  - And more!
 
 ### I've also disabled some stock Lazyvim plugins that I find annoying:
-- nvim-notify
-- bufferline.nvim
-- neo-tree
+- Nvim-notify
+- Bufferline
+- Neo-tree
 
 ### Most background colours have been made transparent so you can use whatever terminal background colour you want for a seamless and sexy af appearance!
 
