@@ -1,6 +1,6 @@
 # viis-Lazyvim
 
-This is my perfected Lazyvim configuration, built on top of [Lazyvim](https://www.lazyvim.org/), designed to pair nicely with my [Tmux setup](https://github.com/JackDerksen/tmux). 
+This is my perfected Neovim configuration, built on top of [Lazyvim](https://www.lazyvim.org/), designed to pair nicely with my [Tmux setup](https://github.com/JackDerksen/tmux). 
 
 Dependencies should be the same as stock LazyVim.
 
@@ -14,7 +14,7 @@ Dependencies should be the same as stock LazyVim.
 ### Plus a whole bunch of awesome keymaps!
  - `shift + k` and `shift + j` while in visual mode to move a block of code up and down (with smart indenting, thanks for this one, Prime)
  - `<leader> + y` to yank to the system clipboard
- - `<leader> + s` for easy search and replace
+ - `<leader XO> + s` for easy search and replace
  - `ctrl + h/j/k/l` for seamless Tmux window navigation
  - `<leader> + e` to toggle a floating Oil window
  - `<leader> + ;` to spawn a squirrel amigo
