@@ -21,8 +21,6 @@ Dependencies should be the same as stock Lazyvim.
  - `shift + k` and `shift + j` while in visual mode to move a block of code up and down (with smart indenting, thanks for this one, Prime)
  - `<leader> + y` to yank to the system clipboard
  - `<leader> + s` for easy search and replace
- - `<leader> + n` to jump to the next instance of the highlighted letter (while keeping the result centered on screen)
- - `<leader> + N` to jump to the previous instance of the highlighted letter (while keeping the result centered on screen)
  - `ctrl + h/j/k/l` for seamless Tmux window navigation
  - `<leader> + e` to toggle a floating Oil window
  - `<leader> + ;` to spawn a squirrel amigo
