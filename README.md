@@ -2,7 +2,7 @@
 
 This is my perfected Neovim configuration, built on top of [Lazyvim](https://www.lazyvim.org/), and designed to pair nicely with my [Tmux setup](https://github.com/JackDerksen/tmux). 
 
-Dependencies should be the same as stock LazyVim.
+Dependencies should be the same as stock Lazyvim.
 
 ### Key plugins include:
  - Harpoon for blazingly fast file switching
