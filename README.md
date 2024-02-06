@@ -39,3 +39,5 @@ Dependencies should be the same as stock Lazyvim.
 ![telescope](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/3243c3f8-ba2a-4782-9f06-8bf4e28a8cda)
 ![oil](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/31193c1c-c0ed-4431-8bd5-2c27db3bc329)
 ![lazy](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/fda9314e-b7fe-402f-8c0d-813e21bbb82d)
+
+In the screenshots above, I'm using Arch through WSL in the Windows Terminal. My font is [Jetbrains Mono Nerd Font](https://www.nerdfonts.com/font-downloads), and the background colour of my terminal is #1E1D23, or rgb(30, 29, 35).
