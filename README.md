@@ -14,7 +14,7 @@ Dependencies should be the same as stock Lazyvim.
 ### Plus a whole bunch of awesome keymaps!
  - `shift + k` and `shift + j` while in visual mode to move a block of code up and down (with smart indenting, thanks for this one, Prime)
  - `<leader> + y` to yank to the system clipboard
- - `<leader XO> + s` for easy search and replace
+ - `<leader> + s` for easy search and replace
  - `ctrl + h/j/k/l` for seamless Tmux window navigation
  - `<leader> + e` to toggle a floating Oil window
  - `<leader> + ;` to spawn a squirrel amigo
