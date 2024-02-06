@@ -1,6 +1,6 @@
 # viis-Lazyvim
 
-This is my perfected Neovim configuration, built on top of [Lazyvim](https://www.lazyvim.org/), designed to pair nicely with my [Tmux setup](https://github.com/JackDerksen/tmux). 
+This is my perfected Neovim configuration, built on top of [Lazyvim](https://www.lazyvim.org/), and designed to pair nicely with my [Tmux setup](https://github.com/JackDerksen/tmux). 
 
 Dependencies should be the same as stock LazyVim.
 
