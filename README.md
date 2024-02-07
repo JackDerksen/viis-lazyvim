@@ -32,7 +32,7 @@ Dependencies should be the same as stock Lazyvim.
 - Bufferline
 - Neo-tree
 
-### Most background colours have been made transparent so you can use whatever terminal background colour you want for a seamless and sexy af appearance!
+### Most background colours have been made transparent so you can use whatever terminal background colour you want for a seamless and sexy af appearance! Works very nicely with transparent terminals, as well!
 
 ![whichkey](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/c1748168-5686-42e2-a4bc-ac5cd101aaef)
 ![telescope](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/3243c3f8-ba2a-4782-9f06-8bf4e28a8cda)
