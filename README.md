@@ -1,5 +1,7 @@
 # viis-Lazyvim
 
+### This is no longer the exact Neovim config I use, but I still think it's a good building block on top of LazyVim.
+
 ![dashboard](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/169e4ebe-db1e-4f59-bb92-210cde97ae60)
 ![coding demo](https://github.com/JackDerksen/viis-lazyvim/assets/78124447/ec5435f6-d58d-40b2-87c2-0a07b7eefd3d)
 
